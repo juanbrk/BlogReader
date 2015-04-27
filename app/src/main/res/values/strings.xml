@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Esta carpeta sirve para definir Strings que usaremos a lo largo de toda la aplicacion
+    Los beneficios de utilizar String resources:
+    1- mantenemos los valores de strings en un solo lugar.
+    2 Podemos alternar versiones de strings.xml para diferentes regiones, idiomas.
+
+    Tambien se pueden almacenar arrays dentro de este xml
+-->
+<resources>
+
+    <string name="app_name">BlogReader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_items">No items to display</string>
+    <string name="no_network">Network is not available</string>
+
+    <string-array name="android_names">
+        <item>Android Beta</item>
+        <item>Android 1.0</item>
+        <item>Android 1.1</item>
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Bean</item>
+    </string-array>
+
+    <string name="title">Oops! Sorry!</string>
+    <string name="error_message">There was an error getting data from the blog</string>
+    <string name="ok_dialog_button">OK</string>
+    <string name="title_activity_blog_web_view">Blog Post</string>
+    <string name="action_share_title">How do you want to share?</string>
+
+</resources>
